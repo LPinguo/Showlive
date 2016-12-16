@@ -11,6 +11,11 @@
 		18AD1B671E037FB50085F8FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B651E037FB50085F8FB /* Main.storyboard */; };
 		18AD1B691E037FB50085F8FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B681E037FB50085F8FB /* Assets.xcassets */; };
 		18AD1B6C1E037FB50085F8FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B6A1E037FB50085F8FB /* LaunchScreen.storyboard */; };
+		18AD1B821E039AB00085F8FB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B801E039AB00085F8FB /* Home.storyboard */; };
+		18AD1B851E039AC70085F8FB /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B831E039AC70085F8FB /* Live.storyboard */; };
+		18AD1B871E039AD60085F8FB /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B861E039AD60085F8FB /* Follow.storyboard */; };
+		18AD1B8A1E039AEA0085F8FB /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B881E039AEA0085F8FB /* Profile.storyboard */; };
+		18AD1B8C1E039C020085F8FB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD1B8B1E039C020085F8FB /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		18AD1B681E037FB50085F8FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AD1B6B1E037FB50085F8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AD1B6D1E037FB50085F8FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AD1B811E039AB00085F8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Showlive/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		18AD1B841E039AC70085F8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Showlive/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		18AD1B861E039AD60085F8FB /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Follow.storyboard; path = ../Main/Follow.storyboard; sourceTree = "<group>"; };
+		18AD1B891E039AEA0085F8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Showlive/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		18AD1B8B1E039C020085F8FB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +64,6 @@
 			children = (
 				18AD1B731E038FE70085F8FB /* Classes */,
 				18AD1B611E037FB50085F8FB /* AppDelegate.swift */,
-				18AD1B651E037FB50085F8FB /* Main.storyboard */,
 				18AD1B681E037FB50085F8FB /* Assets.xcassets */,
 				18AD1B6A1E037FB50085F8FB /* LaunchScreen.storyboard */,
 				18AD1B6D1E037FB50085F8FB /* Info.plist */,
@@ -65,10 +74,10 @@
 		18AD1B731E038FE70085F8FB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				18AD1B741E038FE70085F8FB /* Follow */,
-				18AD1B751E038FE70085F8FB /* Home */,
-				18AD1B761E038FE70085F8FB /* Live */,
 				18AD1B771E038FE70085F8FB /* Main */,
+				18AD1B751E038FE70085F8FB /* Home */,
+				18AD1B741E038FE70085F8FB /* Follow */,
+				18AD1B761E038FE70085F8FB /* Live */,
 				18AD1B781E038FE70085F8FB /* Profile */,
 				18AD1B791E038FE70085F8FB /* Tools */,
 			);
@@ -78,6 +87,7 @@
 		18AD1B741E038FE70085F8FB /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				18AD1B861E039AD60085F8FB /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -85,6 +95,7 @@
 		18AD1B751E038FE70085F8FB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				18AD1B801E039AB00085F8FB /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -92,6 +103,7 @@
 		18AD1B761E038FE70085F8FB /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				18AD1B831E039AC70085F8FB /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -99,6 +111,8 @@
 		18AD1B771E038FE70085F8FB /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				18AD1B651E037FB50085F8FB /* Main.storyboard */,
+				18AD1B8B1E039C020085F8FB /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -106,6 +120,7 @@
 		18AD1B781E038FE70085F8FB /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				18AD1B881E039AEA0085F8FB /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -179,6 +194,10 @@
 				18AD1B6C1E037FB50085F8FB /* LaunchScreen.storyboard in Resources */,
 				18AD1B691E037FB50085F8FB /* Assets.xcassets in Resources */,
 				18AD1B671E037FB50085F8FB /* Main.storyboard in Resources */,
+				18AD1B851E039AC70085F8FB /* Live.storyboard in Resources */,
+				18AD1B821E039AB00085F8FB /* Home.storyboard in Resources */,
+				18AD1B8A1E039AEA0085F8FB /* Profile.storyboard in Resources */,
+				18AD1B871E039AD60085F8FB /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18AD1B621E037FB50085F8FB /* AppDelegate.swift in Sources */,
+				18AD1B8C1E039C020085F8FB /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +222,7 @@
 				18AD1B661E037FB50085F8FB /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		18AD1B6A1E037FB50085F8FB /* LaunchScreen.storyboard */ = {
@@ -210,6 +231,33 @@
 				18AD1B6B1E037FB50085F8FB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		18AD1B801E039AB00085F8FB /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AD1B811E039AB00085F8FB /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		18AD1B831E039AC70085F8FB /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AD1B841E039AC70085F8FB /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		18AD1B881E039AEA0085F8FB /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AD1B891E039AEA0085F8FB /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -313,7 +361,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Showlive/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.Showlive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -328,7 +376,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Showlive/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.Showlive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
