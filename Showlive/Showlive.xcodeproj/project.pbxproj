@@ -13,9 +13,9 @@
 		18AD1B6C1E037FB50085F8FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B6A1E037FB50085F8FB /* LaunchScreen.storyboard */; };
 		18AD1B821E039AB00085F8FB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B801E039AB00085F8FB /* Home.storyboard */; };
 		18AD1B851E039AC70085F8FB /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B831E039AC70085F8FB /* Live.storyboard */; };
-		18AD1B871E039AD60085F8FB /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B861E039AD60085F8FB /* Follow.storyboard */; };
 		18AD1B8A1E039AEA0085F8FB /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B881E039AEA0085F8FB /* Profile.storyboard */; };
 		18AD1B8C1E039C020085F8FB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD1B8B1E039C020085F8FB /* MainViewController.swift */; };
+		18AD1B941E03A18D0085F8FB /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD1B931E03A18D0085F8FB /* Follow.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		18AD1B6D1E037FB50085F8FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AD1B811E039AB00085F8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Showlive/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
 		18AD1B841E039AC70085F8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Showlive/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
-		18AD1B861E039AD60085F8FB /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Follow.storyboard; path = ../Main/Follow.storyboard; sourceTree = "<group>"; };
 		18AD1B891E039AEA0085F8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Showlive/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
 		18AD1B8B1E039C020085F8FB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		18AD1B931E03A18D0085F8FB /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		18AD1B741E038FE70085F8FB /* Follow */ = {
 			isa = PBXGroup;
 			children = (
-				18AD1B861E039AD60085F8FB /* Follow.storyboard */,
+				18AD1B931E03A18D0085F8FB /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -194,10 +194,10 @@
 				18AD1B6C1E037FB50085F8FB /* LaunchScreen.storyboard in Resources */,
 				18AD1B691E037FB50085F8FB /* Assets.xcassets in Resources */,
 				18AD1B671E037FB50085F8FB /* Main.storyboard in Resources */,
+				18AD1B941E03A18D0085F8FB /* Follow.storyboard in Resources */,
 				18AD1B851E039AC70085F8FB /* Live.storyboard in Resources */,
 				18AD1B821E039AB00085F8FB /* Home.storyboard in Resources */,
 				18AD1B8A1E039AEA0085F8FB /* Profile.storyboard in Resources */,
-				18AD1B871E039AD60085F8FB /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
